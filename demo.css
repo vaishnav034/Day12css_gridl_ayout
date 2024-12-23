@@ -127,6 +127,7 @@ body {
   background-color: lightgreen;
     padding: 30px;
     border-radius: 20px;
+    align-content: center;
 
   
 
@@ -138,10 +139,84 @@ body {
   background-color: lightgrey;
     padding: 30px;
     border-radius: 20px;
-
-
-    
+  
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+.subchild1 {
+  padding: 10px;
+  grid-column: 1/4;
+  background-color: lightcoral;
+  border-radius: 20px;
+}
+.subchild2 {
+  padding: 10px;
+  grid-column: 4/5;
+  grid-row: 1/4;
+  background-color: lightgreen;
+  border-radius: 20px;
+  align-content: center;
+
+}
+.subchild3 {
+  padding: 10px;
+  background-color: lightseagreen;
+  border-radius: 20px;
+}
+.subchild4 {
+  padding: 10px;
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background-color: lightpink;
+  border-radius: 20px;
+  align-content: center;
+
+}
+.subchild5 {
+  padding: 10px;
+  background-color: lightslategray;
+  border-radius: 20px;
+}
+.subchild6 {
+  padding: 10px;
+  background-color: #195228;
+  border-radius: 20px;
+}
+.subchild7 {
+  padding: 10px;
+  background-color: lightcoral;
+  border-radius: 20px;
+}
+.subchild8 {
+  padding: 10px;
+  background-color: lightpink;
+  border-radius: 20px;
+}
+.subchild9 {
+  padding: 10px;
+  background-color: lightsalmon;
+  border-radius: 20px;
+}
+
+.subchild10 {
+  padding: 10px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 20px;
+  color: black;
+}
+.subchild11 {
+  padding: 10px;
+  background-color: lightslategray;
+  border-radius: 20px;
+}
+
+
+
+
 .child10 {
   text-align: center;
   grid-column: 2/4;
